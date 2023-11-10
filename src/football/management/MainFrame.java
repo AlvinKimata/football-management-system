@@ -3124,16 +3124,16 @@ int year  = localDate.getYear();
         for(int a=1;a<=4;a++){
             String groupName=null;
             if(a==1){
-                groupName="groupa";
+                groupName="groupA";
                 category="A";
             }else if(a==2){
-                 groupName="groupb";
+                 groupName="groupB";
                  category="B";
             }else if(a==3){
-                 groupName="groupc";
+                 groupName="groupC";
                  category="C";
             }else{
-                 groupName="groupd";
+                 groupName="groupD";
                  category="D";
             }
             String alu="SELECT Group_ID FROM "+groupName+" WHERE Team_ID="+a;
